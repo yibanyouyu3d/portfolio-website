@@ -1,6 +1,4 @@
-import React from 'react';
-
-const Hero: React.FC = () => {
+const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* 背景渐变效果 */}

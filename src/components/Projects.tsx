@@ -1,7 +1,6 @@
-import React from 'react';
 import { projects } from '../data/projects';
 
-const Projects: React.FC = () => {
+const Projects = () => {
   return (
     <section id="projects" className="py-20 bg-gradient-to-b from-gray-900/30 to-gray-900/10">
       <div className="container mx-auto px-6">

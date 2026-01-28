@@ -1,6 +1,4 @@
-import React from 'react';
-
-const Contact: React.FC = () => {
+const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-gray-900/50">
       <div className="container mx-auto px-6">

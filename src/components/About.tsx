@@ -1,7 +1,6 @@
-import React from 'react';
 import { skills, skillCategories } from '../data/skills';
 
-const About: React.FC = () => {
+const About = () => {
   const getSkillsByCategory = (category: 'frontend' | 'backend' | 'tools' | 'other') => {
     return skills.filter(skill => skill.category === category);
   };
